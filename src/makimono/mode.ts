@@ -1,0 +1,5 @@
+enum Mode {
+  UNIT_TEST,
+  INTEGRATION_TEST,
+  PRODUCTION
+}

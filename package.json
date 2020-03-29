@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo wtf",
-    "drive": "npm run build && node lib/main.js"
+    "drive": "npm run build && node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/tianhaoz95/friends#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {}
 }
