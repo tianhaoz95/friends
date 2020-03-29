@@ -1,0 +1,27 @@
+{
+  "name": "friends",
+  "version": "0.0.1",
+  "description": "An app to automate Twitter friendship.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo wtf",
+    "drive": "npm run build && node lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianhaoz95/friends.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Tianhao Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianhaoz95/friends/issues"
+  },
+  "homepage": "https://github.com/tianhaoz95/friends#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
